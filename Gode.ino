@@ -72,11 +72,11 @@ void check_time() {
       }
     }
     Serial.println("");
-    delay(1000);
+    delay(1000); // Не используем delay 
   }
   else
   {
-    delay(1500);
+    delay(1500); // Не используем delay
 
     Serial.println("No");
     Serial.println("Setting Time");
