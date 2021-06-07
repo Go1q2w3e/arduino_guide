@@ -28,7 +28,7 @@ static DS3231 RTC; // берется из примера RTC DS3231 info
 String a;
 int b, StTime, FiTime;
 
-const String waitg = "Done. I'm listening MY LORD!"; //Приветсвие
+const String waitg = "Command complete. What next?"; //Приветсвие
 
 //Показывает углексилый газ
 void CO2show()
@@ -431,8 +431,7 @@ digitalWrite(SVET_PIN_2, LOW);
 digitalWrite(SVET_PIN_3, LOW);
 b = 0;
 
-Serial.println("YES,
-MY LORD!");
+Serial.println("OK");
 }
 
 void loop()
