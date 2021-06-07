@@ -200,8 +200,7 @@ Serial.print("\n");
 Serial.println(waitg);
 }
 
-else if (a == "4" || a ==
-"Humi") //Команды, которые показывают влажность воздуха
+else if (a == "4" || a == "Humi") //Команды, которые показывают влажность воздуха
 {
 Serial.print("\n");
 Humishow();
